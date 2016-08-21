@@ -1,5 +1,7 @@
-# Pokemon go map UI
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![build status][travis-image]][travis-url]
+
+# Pokemon go map UI
 
 This project – alternative web ui for [PokemonGo-Map](/PokemonGoMap/PokemonGo-Map).
 
