@@ -11,8 +11,12 @@ This project – alternative web ui for [PokemonGo-Map](/PokemonGoMap/PokemonGo-
 - Redux
 - ES6
 
+
+## TODO
+- [ ] project structure (build)
+- [ ] base integration with [PokemonGo-Map](/PokemonGoMap/PokemonGo-Map)
+
 ## Feature
-- [ ] base integration
 
 ### map
 - [ ] show pokemon
