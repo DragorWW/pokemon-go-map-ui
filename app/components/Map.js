@@ -9,7 +9,10 @@ export default class Map extends Component {
     return (
       <div style={{height: '500px'}}>
         <GoogleMap
-          apiKey={this.props.apiKey}
+          bootstrapURLKeys={{
+            key: this.props.apiKey,
+            language: 'ru'
+          }}
           center={this.props.center}
           zoom={this.props.zoom}>
           <PokemonPlace lat={59.955413} lng={30.337844} text={'A'} />

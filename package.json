@@ -4,6 +4,7 @@
   "description": "alternative web ui for PokemonGo-Map.",
   "main": "index.js",
   "scripts": {
+    "test": "eslint app/**",
     "start": "node server.js",
     "dev": "webpack"
   },
