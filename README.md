@@ -12,12 +12,14 @@ This project – alternative web ui for [PokemonGo-Map](/PokemonGoMap/PokemonGo-
 - ES6
 
 ## Feature
+- [ ] base integration
 
 ### map
 - [ ] show pokemon
 - [ ] show pokestop
-- [ ] show spawnpoint
-- [ ] show scanned location
+- [ ] show spawnpoint point
+- [ ] show spawnpoint hotmap
+- [ ] show scanned location point
 - [ ] show gym
 - [ ] show pokemon info
 - [ ] show pokestop info
@@ -26,9 +28,9 @@ This project – alternative web ui for [PokemonGo-Map](/PokemonGoMap/PokemonGo-
 - [ ] calc best path for visit pokestop
 - [ ] calc best path by spawnpoint
 
-
-# statistic
+### statistic
 - [ ] pokemon
+- [ ] draw pokemon area spawn
 - [ ] pokestop
 - [ ] spawnpoint
 - [ ] gym
