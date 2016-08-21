@@ -2,8 +2,7 @@ import React, {Component, PropTypes} from 'react'
 import {connect} from 'react-redux'
 import Map from '../components/Map'
 
-class App extends Component {
-
+class MapPage extends Component {
   render () {
     return (
       <div>
@@ -13,7 +12,7 @@ class App extends Component {
   }
 }
 
-App.propTypes = {
+MapPage.propTypes = {
   gmapApiKey: PropTypes.string
 }
 
@@ -23,4 +22,4 @@ function mapStateToProps (state) {
   }
 }
 
-export default connect(mapStateToProps)(App)
+export default connect(mapStateToProps)(MapPage)

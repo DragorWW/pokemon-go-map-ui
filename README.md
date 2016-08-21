@@ -13,7 +13,7 @@ This project – alternative web ui for [PokemonGo-Map](/PokemonGoMap/PokemonGo-
 
 
 ## TODO
-- [ ] project structure (build)
+- [X] project structure (build)
 - [ ] base integration with [PokemonGo-Map](/PokemonGoMap/PokemonGo-Map)
 
 ## Feature
