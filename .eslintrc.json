@@ -1,0 +1,14 @@
+{
+    "extends": ["standard", "standard-react"],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "parser": "babel-eslint"
+}
