@@ -10,5 +10,6 @@
     "plugins": [
         "react"
     ],
+    "globals": { "fetch": true },
     "parser": "babel-eslint"
 }

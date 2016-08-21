@@ -1,5 +1,5 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![build status][travis-image]][travis-url]
+[![Build Status](https://travis-ci.org/DragorWW/pokemon-go-map-ui.svg?branch=master)](https://travis-ci.org/DragorWW/pokemon-go-map-ui)
 
 # Pokemon go map UI
 
