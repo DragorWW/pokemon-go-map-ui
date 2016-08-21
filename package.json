@@ -1,0 +1,25 @@
+{
+  "name": "pokemon-go-map-ui",
+  "version": "1.0.0",
+  "description": "alternative web ui for PokemonGo-Map.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragorWW/pokemon-go-map-ui.git"
+  },
+  "keywords": [
+    "pokemon",
+    "Go",
+    "map",
+    "react"
+  ],
+  "author": "Andreev Sergey (DragorWW@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DragorWW/pokemon-go-map-ui/issues"
+  },
+  "homepage": "https://github.com/DragorWW/pokemon-go-map-ui#readme"
+}
