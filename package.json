@@ -36,6 +36,7 @@
     "eslint-loader": "^1.5.0",
     "eslint-plugin-react": "^6.1.2",
     "express": "^4.14.0",
+    "json-loader": "^0.5.4",
     "redux-devtools": "^3.3.1",
     "redux-devtools-dock-monitor": "^1.1.1",
     "redux-devtools-log-monitor": "^1.0.11",
@@ -44,6 +45,7 @@
     "webpack-hot-middleware": "^2.12.2"
   },
   "dependencies": {
+    "google-map-react": "^0.17.0",
     "humps": "^1.1.0",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.15.0",
