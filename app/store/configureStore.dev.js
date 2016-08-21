@@ -5,13 +5,13 @@ import api from '../middleware/api'
 import rootReducer from '../reducers'
 import DevTools from '../containers/DevTools'
 
-export default function configureStore(preloadedState) {
+export default function configureStore (preloadedState) {
   const store = createStore(
     rootReducer,
     preloadedState,
     compose(
       applyMiddleware(thunk, api, createLogger()),
-      DevTools.instrument()
+      window.devToolsExtension ? window.devToolsExtension() : DevTools.instrument()
     )
   )
 

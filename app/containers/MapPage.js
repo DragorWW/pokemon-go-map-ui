@@ -6,7 +6,7 @@ class MapPage extends Component {
   render () {
     return (
       <div>
-        <Map apiKey="key" />
+        <Map apiKey={this.props.gmapApiKey} />
       </div>
     )
   }
@@ -18,7 +18,7 @@ MapPage.propTypes = {
 
 function mapStateToProps (state) {
   return {
-    gmapApiKey: state.gmapApiKey
+    gmapApiKey: state.config.gmapApiKey
   }
 }
 
