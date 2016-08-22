@@ -15,8 +15,8 @@ export default class Map extends Component {
           }}
           center={this.props.center}
           zoom={this.props.zoom}>
-          <PokemonPlace lat={59.955413} lng={30.337844} text={'A'} />
-          <PokemonPlace {...this.props.greatPlaceCoords} text={'B'} />
+          <PokemonPlace lat={59.955413} lng={30.337844} id={'010'} />
+          <PokemonPlace {...this.props.greatPlaceCoords} id={'033'} />
         </GoogleMap>
       </div>
     )
