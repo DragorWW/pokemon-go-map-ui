@@ -1,3 +1,6 @@
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Build Status](https://travis-ci.org/DragorWW/pokemon-go-map-ui.svg?branch=master)](https://travis-ci.org/DragorWW/pokemon-go-map-ui)
+
 # Pokemon go map UI
 
 This project – alternative web ui for [PokemonGo-Map](/PokemonGoMap/PokemonGo-Map).
@@ -13,7 +16,7 @@ This project – alternative web ui for [PokemonGo-Map](/PokemonGoMap/PokemonGo-
 
 
 ## TODO
-- [ ] project structure (build)
+- [X] project structure (build)
 - [ ] base integration with [PokemonGo-Map](/PokemonGoMap/PokemonGo-Map)
 
 ## Feature
@@ -41,3 +44,6 @@ This project – alternative web ui for [PokemonGo-Map](/PokemonGoMap/PokemonGo-
 - [ ] player
 - [ ] player pokemon
 - [ ] scanned location
+
+## For developers
+Code style [standard](http://standardjs.com/index.html) and [standard-react](/feross/eslint-config-standard-react)
